@@ -7,10 +7,10 @@ import './authentication.styles.scss';
 
 const Authentication = () => {
 
-  const logUserWithGooglePopUp = async () => {
-    const {user} = await signInWithGooglePopup();
-    createUserDocumentFromAuth(user);
-  };
+  // const logUserWithGooglePopUp = async () => {
+  //   const {user} = await signInWithGooglePopup();
+  //   createUserDocumentFromAuth(user);
+  // };
 
   //**Code to make google auth redirect work
   // const redirectResultWhenMounting = async () => {
